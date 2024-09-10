@@ -1,0 +1,42 @@
+.custom-button {
+    padding: 10px 20px;
+    background-color: #0000ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .custom-button:hover {
+    background-color:#ff70ff;
+  }
+  
+  .custom-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .rating-button {
+    padding: 10px 15px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #333;
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .rating-button.selected {
+    background-color: red;
+    color: white;
+  }
+
+  .next{
+    background-color: #ff70ff;
+  }
+
+  
